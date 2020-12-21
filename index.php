@@ -45,7 +45,7 @@
 
             <div class="column right" style = "position:relative; top:200px">
                 <h3 style="text-align:left;font-size: 25px"><b>Zung</b></h3>
-                <a  href="ZZZZ.html" target="_blank" class="button" style="font-size: 16px">About Z »</a>
+                <a  href="ZZZZ.html" class="button" style="font-size: 16px">About Z »</a>
                                 
             </div>
               
