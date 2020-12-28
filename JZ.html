@@ -1,78 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+    <head>  <title>Profile : Jinny</title>
+            <h1 id='Head'>xxxx Jinny Saelee xxxx </h1>
+            
+            <!-- Required meta tags -->
+            <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+            
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-<head>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
-        <!-- jQuery library -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-        <!-- Popper JS -->
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-        <!-- Latest compiled JavaScript -->
-         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <style>	img { display: block;margin-left: auto;margin-right: auto;}
-        table, th, td {border: 1px solid black;}
-	    #Head	{ font-size:40px; text-align: center;}
-	    #link_l	{font-size:15px;}
-	    #link_r { font-size:15px;}
-	    #text 	{font-size:15px; text-align: center;}
-	    #hidden	{ font-size:15px; text-align: center;}
-        a{margin-left:30px;margin-right:30px;}
-
-</style>
-<div class = "bg">
-	    <title> Profile : Jinny </title>
-	    <h1 id='Head'>  xxxx Jinny Saelee xxxx </h1>
-</head>
-
-
-    <body style="background-color:rgb(255, 255, 255);">
-        
-        <hr>
-        <a href="index.php" button type="button" class="btn btn-dark"  >Homepage</a>
-                <a href="ZJ.html" class="btn btn-dark" style="float: right;" > Z Page</a>
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            
+            <!-- Popper JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     
-        <hr>
-        
-        <img src="https://zwebtech.herokuapp.com/JN.jpg" class="rounded"  alt="Jinny's Picture" width="235" height="315">
+    <style>	img {display:block;margin-left:auto; margin-right:auto; margin-bottom:20px;}
+            table, th, td {border: 1px solid black;}
+            #Head	{font-size:40px; text-align: center;margin-top:10px;}    
+            #text ,p	{font-size:18px; text-align: center;}
+            #hidden	{font-size:15px; text-align: center;}
+            .card {display:block; margin-left: auto; margin-right: auto;}
+            a {margin-left:30px;margin-right:30px;}
+            .border {border-width:2px !important;}
+    </style>
     
-       
-        <p style="text-align: center;" id="text">Full Name : Jinny Saelee
-            <br>You can call me : Jinny
-            <br>Date of Birth : 9 March 2001
-        </p>
-        
-        <p style="text-align:center; color:rgb(0, 0, 0);"><strong>Contact</strong></p> 
-        <table style="width:50%; background-color: rgb(201, 201, 201); margin-left: auto;margin-right: auto;">
-            <tr>    <th>Facebook</th>
-                    <th>Mails</th> 
-                    <th>Phone Number</th>
-            </tr>
-            <tr>    <td><a href="https://www.facebook.com/jinny.lee.50;"
-                    style="color: rgb(0, 0, 0); text-align: center;">Jinny Lee</a></td>
-                    <td><a href="mailto:saelee_j4@silpakorn.edu"
-                    style="color: rgb(0, 0, 0); text-align: center;"> Mails</a></td>
-                    <td style="color: rgb(0, 0, 0); text-align: center;">061-817-9888</td>
-            </tr>
+    </head>
+
+<body>
+<hr>    <a href="index.php" button type="button" class="btn btn-dark"  >Homepage</a>
+        <a href="ZJ.html" button type="button" class="btn btn-dark" style="float: right;" >Z Page</a>
+
+
+    <img src="https://zwebtech.herokuapp.com/JN.jpg" alt="Jinny's Picture" width="235" height="315">
+    <p style="text-align: center;" id="text">Full Name : Jinny Saelee
+    <br>You can call me : Jinny
+    <br>Date of Birth : 9 March 2001
+    </p>
+
+    <p><strong>Contact</strong></p>
+    <table class="table table-striped" style="text-align: center;">
+        <tr><th>Facebook</th>
+            <th>SU-Mail</th>
+            <th>Telephone Number</th>
+
+        <tr><td><a href="https://www.facebook.com/jinny.lee.50;">Jinny Lee</a></td>
+            <td><a href="mailto:saelee_j4@silpakorn.edu"> saelee_j4@silpakorn.edu</a></td>
+            <td>061-817-9888</td>
+    </table>
+
+
     
-        </table>
-        </p>
-    
-
-
-<p id="hidden"> We wanna told you something<br>
-    <button onclick="displayResult()">Click Me !!
-    </button>
-    <script>
-            function displayResult() {document.getElementById("hidden").innerHTML =
-            "We need A ^^";}
-    </script>
-</p>
-
-
+<hr>
 </body>
-</div>
 </html>
