@@ -1,59 +1,70 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Profile </title>
-        <meta  charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-        <link rel="stylesheet" href="style1.css">
-        <style>
-            body,h1,h2,h3,h4,h5,p { font-family:"Didot",css; }
-            p,h1 {font-size: 24px;}
-            img{margin-top:20px;}
-            h1 {text-align: center;}
-            * {box-sizing: border-box;}
-            img { display: block;margin-left: auto;margin-right: auto;}
-            .button {background-color:rgb(0, 0, 0);border: none;
-                    color: rgb(255, 255, 255);
-                    padding: 15px 32px;
-                    text-align: center;
-                    text-decoration: none;
-                    display: inline-block;
-                    font-size: 12px;
-                    margin: 4px 2px;
-                    cursor: pointer;}
-                    div.l {text-align: left;}
-                    .column {float: left;width: 33.33%;padding: 10px;height: 300px;}
-                    .row:after {content: "";display: table;clear: both;}
-          </style>
-    </head>
-    <div >
-    <body style="background-color:rgb(255, 255, 255);">
-          <header>         
-         </header> 
 
-            <div class="row">
-                <div class="column" >
-                </div>
+<head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-                <div class="column" style="background-color:rgb(238, 238, 238);">
-                <img src="ZW.jpg"  alt="GeeksforGeeks logo" border="5" alt="ZW" style="width:70%"  >
-                <h1 ><b>KANMANEE B.</b></h1>
-                <p> Name: Kanmanee</p>
-                <p>   Last Name : Boonrawt</p>
-                <p> Nickname : Zung(Meaning = Log)</p>
-                <p> Date Of Birth : 10 August 2001</p>
-                <p> Favourite Color : Black, White, OrangeRed </p>  
-                <a href="index.php" class="button" style="font-size: 16px"> Go Back</a>
-              </div>    
-                
-              <div class="column">
-              </div>
-              
-            </div> 
-            <div>
+        <!-- jQuery library -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<style>	img { display: block;margin-left: auto;margin-right: auto;margin-bottom:20px;}
+        table, th, td {border: 1px solid black;}
+	    #Head	{ font-size:40px; text-align: center;margin-top:10px;}    
+	    #text ,p	{font-size:18px; text-align: center;}
+	    #hidden	{ font-size:15px; text-align: center;}
+            .card{display: block; margin-left: auto; margin-right: auto;}
+            a{margin-left:30px;margin-right:30px;}
+            .border {border-width:2px !important;}
             
-            </div>
-          
-    </body>
-</html> 
+
+</style>
+
+        <title > Profile : Zung </title>
+        
+        <h1 id='Head'> xxxx Kanmanee Boonrawt xxxx </h1>
+       
+</head>
+<body >
+  
+        
+    <hr>
+            <a href="Demo.html" button type="button" class="btn btn-dark"  >Homepage</a>
+            <a href="JZ.html" button type="button" class="btn btn-dark" style="float: right;" >Next Page</a>
+
+    <hr>
+
+        <img class="border border-dark "   src="https://zwebtech.herokuapp.com/ZW.jpg"  alt="Zung's Picture" width="19%">
+        
+	<p style="text-align:center;" id="text">Full Name : Kanmanee Boonrawt
+                <br>You can call me : Zung (Meaning = Log)
+                <br>Date of Birth : 10 August 2001
+        
+    
+    <p style="text-align:center;"><strong>Contact</strong></p> 
+   
+    <div class="card border-dark mb-3" style="width: 18rem;">
+        <div class="card-body" style="text-align:center;">
+                        <tr ><th><a href="https://www.facebook.com/zunggg/"class="card-link">Facebook</a></th>
+                        <th><a href="mailto:boonrwt@silpakorn.edu" class="card-link">E-Mail</a></th>
+                        <th>098-284-7297</th></tr>
+
+        </div>
+   </div>
+   </p>
+    
+
+
+<hr>
+
+<hr>
+
+
+</body>
+</html>
