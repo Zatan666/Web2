@@ -19,9 +19,7 @@
             body,h1,h2,h3,h4,h5,p { font-family:"Didot",css;}
             h1{margin-top:30px;margin-bottom:10px;}
             h1,p {text-align: center;}
-            * {box-sizing: border-box;}
             img {display: block;margin-left: auto; margin-right: auto;}
-            .column {float: left;padding: 10px;height: 300px;}
             .left, .right {width: 30%;}
             .middle {width: 40%;}
             .border {border-width:4px !important;}
@@ -47,7 +45,7 @@
 
             <div class="column right" style = "position:relative; top:200px">
                 <h3 style="text-align:left;font-size: 25px"><b>Zung</b></h3>
-                <a  href="ZJ.html"  class="btn btn-dark" style="font-size: 16px">About Z »</a>
+                <a  href="ZJ.html" target="_blank" class="btn btn-dark" style="font-size: 16px">About Z »</a>
                                 
             </div>
               
